@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 10%;
+}
+
+
+.body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h3{
+    color:rgb(82, 81, 83);
+
+}
+p,li,a,buttton{
+        color: #888888;
+}
+p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-size: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+   list-style: none;
+}
+
+button{
+    padding: 1rem 3rem;
+    border: 2rem;
+    border: none;
+    outline: none;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-style: 2rem;
+}
+header{
+    padding: 0 20rem;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 12rem;
+    align-items: center;
+
+}
+header nav .logo h1 {
+    font-size: 30rem;
+}
+header nav .menu{
+    display: flex;
+
+}
+
+header nav .menu a {
+        margin-left: 4rem;
+}
+header nav .menu a li {
+    font-size: 20rem;
+    line-height: 3.6rem;
+    text-transform: capitalize;
+    transition: all 0.2s;
+
+}
+header nav .menu a li:hover{
+    color: #4b709e;
+}
